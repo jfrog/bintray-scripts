@@ -14,9 +14,11 @@ Requirements:
 To run this script the user needs to provide BINTRAY_USERNAME, BINTRAY_APIKEY, BINTRAY_ORG in bintray.
 secrets.
 
-`export BINTRAY_USERNAME=<insert username>
+```
+export BINTRAY_USERNAME=<insert username>
 export BINTRAY_APIKEY=<insert APIKey>
-export BINTRAY_ORG=<insert org name>`
+export BINTRAY_ORG=<insert org name>
+```
 
 
 The user also needs to provide the timeslice.json, below is an example of timeslice.json
