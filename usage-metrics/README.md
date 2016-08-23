@@ -8,12 +8,15 @@ Usage
 
 To run the script, run `./total-repositories.sh`.
 
-As this script requires the timeslice, below is an example of timeslice.json
+Requirements:
+To run this script the user needs to provide BINTRAY_USERNAME, BINTRAY_APIKEY, BINTRAY_ORG in bintray.secrets. The user also needs to provide the timeslice.json, below is an example of timeslice.json
 
 `{
     "from":"2016-08-04T00:00:00.000Z",
     "to":"2016-08-05T00:00:00.000Z"
 }`
+
+In the end 
 
 ![Main Menu Screenshot](doc/mainMenu.png)
 
