@@ -12,11 +12,11 @@ total-packages.sh
 total-packages.sh will provide the total_downloads of each package in the asked repository based on the timeslice provided
 
 Details about the scripts
--------------------------
+=========================
 
 
 total-repositories.sh
-==================
+---------------------
 
 Usage
 -----
@@ -48,7 +48,7 @@ The user also needs to provide the timeslice.json, below is an example of timesl
 In the end the script would export the download_bytes and storage_bytes and percentage of total usage of each repository in usage.csv
 
 total-packages.sh
-==================
+-----------------
 
 Usage
 -----
