@@ -3,27 +3,17 @@ total-repositories.sh
 
 total-repositories.sh will provide the total download and storage in bytes based on the timeslice provided in timeslice.json
 
-Installation
-------------
-
-This tool accesses the Nexus instance directly by reading the Nexus files from
-the disk. Therefore, the tool should be installed on the computer running the
-Nexus instance, or on a computer with access to the filesystem that the Nexus
-instance is installed on.
-
-First, install the dependencies:
-- the latest version of [Python 2][]
-- the latest version of [PDCurses][] (on Windows only)
-
-[Python 2]:  https://www.python.org/downloads/
-[PDCurses]:  http://pdcurses.sourceforge.net/
-
-Then, clone this repository.
-
 Usage
 -----
 
-To run the tool, run `./NexusToArtifactory.py`.
+To run the script, run `./total-repositories.sh`.
+
+As this script requires the timeslice, below is an example of timeslice.json
+
+'{
+    "from":"2016-08-04T00:00:00.000Z",
+    "to":"2016-08-05T00:00:00.000Z"
+}'
 
 ![Main Menu Screenshot](doc/mainMenu.png)
 
