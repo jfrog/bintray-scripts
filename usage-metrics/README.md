@@ -9,6 +9,8 @@ Usage
 To run the script, run `./total-repositories.sh`.
 
 Requirements:
+-------------
+
 To run this script the user needs to provide BINTRAY_USERNAME, BINTRAY_APIKEY, BINTRAY_ORG in bintray.secrets. The user also needs to provide the timeslice.json, below is an example of timeslice.json
 
 `{
