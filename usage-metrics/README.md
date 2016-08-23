@@ -30,7 +30,7 @@ The user also needs to provide the timeslice.json, below is an example of timesl
 }
 ```
 
-In the end the script would export the download_bytes and storage_bytes of each repository in usage.csv
+In the end the script would export the download_bytes and storage_bytes and percentage of total usage of each repository in usage.csv
 
 total-packages.sh
 ==================
