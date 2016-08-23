@@ -2,21 +2,6 @@ NexusToArtifactory
 ==================
 
 total-repositories.sh will provide the total download and storage in bytes based on the timeslice provided in timeslice.json
- 
-This tool is designed to ease the transition from Sonatype Nexus to JFrog
-Artifactory. It provides a simple wizard-like interface that allows you to
-easily configure and run a migration of repositories, artifacts, users, and
-settings from a Nexus instance to an Artifactory instance.
-
-This tool is still in very early development, and may not yet have support for
-everything that might need to be migrated. See the bottom of this page for
-further details.
-
-Currently, the following data can be migrated:
-- local (hosted), remote (proxy), and virtual (group) repositories
-- artifacts stored in local (hosted) repositories
-- users, groups (roles), and permissions (privileges)
-- LDAP configuration
 
 Installation
 ------------
