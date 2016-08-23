@@ -23,10 +23,12 @@ export BINTRAY_ORG=<insert org name>
 
 The user also needs to provide the timeslice.json, below is an example of timeslice.json
 
-`{
+```
+{
     "from":"2016-08-04T00:00:00.000Z",
     "to":"2016-08-05T00:00:00.000Z"
-}`
+}
+```
 
 In the end 
 
