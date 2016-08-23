@@ -1,4 +1,4 @@
-Usage-Metrics contains scripts that hepls user to calculate the download and storage stats based on the timesslice provided. 
+Usage-Metrics contains scripts that hepls user to calculate the download and storage stats based on the timeslice provided. 
 =====================
 
 total-repositories.sh
@@ -11,12 +11,12 @@ total-packages.sh
 
 total-packages.sh will provide the total_downloads of each package in the asked repository based on the timeslice provided
 
+Details about the scripts
+-------------------------
 
 
 total-repositories.sh
 ==================
-
-total-repositories.sh will provide the total download and storage in bytes based on the timeslice provided in timeslice.json
 
 Usage
 -----
