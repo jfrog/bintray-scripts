@@ -35,6 +35,11 @@ In the end the script would export the download_bytes and storage_bytes of each 
 total-packages.sh
 ==================
 
+Usage
+-----
+
+To run the script, run `./total-packages.sh repo_name`.
+
 Requirements:
 -------------
 
