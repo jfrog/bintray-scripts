@@ -1,4 +1,4 @@
-NexusToArtifactory
+total-repositories.sh
 ==================
 
 total-repositories.sh will provide the total download and storage in bytes based on the timeslice provided in timeslice.json
