@@ -1,12 +1,16 @@
 Usage-Metrics contains scripts that hepls user to calculate the download and storage stats based on the timeslice provided. 
 =====================
+##Prerequisites
 
-total-repositories.sh
+You will need the command-line tool 'jq' for these scripts to function.  On a mac to install it 'brew install jq'
+
+
+##total-repositories.sh
 ---------------------
 
 total-repositories.sh will provide the total download and storage in bytes based on the timeslice provided in timeslice.json
 
-total-packages.sh
+##total-packages.sh
 -----------------
 
 total-packages.sh will provide the total_downloads of each package in the asked repository based on the timeslice provided
