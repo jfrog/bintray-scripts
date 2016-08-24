@@ -1,4 +1,4 @@
-Usage-Metrics contains scripts that hepls user to calculate the download and storage stats based on the timeslice provided. 
+Usage-Metrics contains scripts that helps user to calculate the download and storage stats based on the timeslice provided. 
 =====================
 ##Prerequisites
 
